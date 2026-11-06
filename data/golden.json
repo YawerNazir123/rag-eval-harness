@@ -1,0 +1,386 @@
+[
+  {
+    "id": "q01",
+    "question": "What is the Kashmiri name of the Greylag Goose?",
+    "expected_answer": "Kashmiri name: Ans",
+    "expected_species": "Greylag Goose",
+    "relevant_chunk_ids": [
+      314
+    ],
+    "should_abstain": false,
+    "category": "factoid"
+  },
+  {
+    "id": "q02",
+    "question": "What is the Kashmiri name of the Alpine Accentor?",
+    "expected_answer": "Kashmiri name: Zanda tsar",
+    "expected_species": "Alpine Accentor",
+    "relevant_chunk_ids": [
+      1
+    ],
+    "should_abstain": false,
+    "category": "factoid"
+  },
+  {
+    "id": "q03",
+    "question": "What is the Kashmiri name of the Common Kingfisher?",
+    "expected_answer": "Kashmiri name: Kola tonch",
+    "expected_species": "Common Kingfisher",
+    "relevant_chunk_ids": [
+      174
+    ],
+    "should_abstain": false,
+    "category": "factoid"
+  },
+  {
+    "id": "q04",
+    "question": "What is the Kashmiri name of the Eurasian Hoopoe?",
+    "expected_answer": "Kashmiri name: Satut",
+    "expected_species": "Eurasian Hoopoe",
+    "relevant_chunk_ids": [
+      230
+    ],
+    "should_abstain": false,
+    "category": "factoid"
+  },
+  {
+    "id": "q05",
+    "question": "What is the Kashmiri name of the Black Kite?",
+    "expected_answer": "Kashmiri name: Gont",
+    "expected_species": "Black Kite",
+    "relevant_chunk_ids": [
+      81
+    ],
+    "should_abstain": false,
+    "category": "factoid"
+  },
+  {
+    "id": "q06",
+    "question": "What is the Kashmiri name of the Himalayan Monal?",
+    "expected_answer": "Kashmiri name: Sunal, Suna Murg, Haum",
+    "expected_species": "Himalayan Monal",
+    "relevant_chunk_ids": [
+      332
+    ],
+    "should_abstain": false,
+    "category": "factoid"
+  },
+  {
+    "id": "q07",
+    "question": "What is the Kashmiri name of the Barn Owl?",
+    "expected_answer": "Kashmiri name: Rata Mogul",
+    "expected_species": "Barn Owl",
+    "relevant_chunk_ids": [
+      26
+    ],
+    "should_abstain": false,
+    "category": "factoid"
+  },
+  {
+    "id": "q08",
+    "question": "What is the length of the Alexandrine Parakeet?",
+    "expected_answer": "Length: 56–62 cm",
+    "expected_species": "Alexandrine Parakeet",
+    "relevant_chunk_ids": [
+      0
+    ],
+    "should_abstain": false,
+    "category": "factoid"
+  },
+  {
+    "id": "q09",
+    "question": "What is the length of the Common Kingfisher?",
+    "expected_answer": "Length: 16 cm",
+    "expected_species": "Common Kingfisher",
+    "relevant_chunk_ids": [
+      174
+    ],
+    "should_abstain": false,
+    "category": "factoid"
+  },
+  {
+    "id": "q10",
+    "question": "What is the length of the Black Kite?",
+    "expected_answer": "Length: 55–60 cm",
+    "expected_species": "Black Kite",
+    "relevant_chunk_ids": [
+      81
+    ],
+    "should_abstain": false,
+    "category": "factoid"
+  },
+  {
+    "id": "q11",
+    "question": "What is the length of the Barn Owl?",
+    "expected_answer": "Length: 33–39 cm",
+    "expected_species": "Barn Owl",
+    "relevant_chunk_ids": [
+      26
+    ],
+    "should_abstain": false,
+    "category": "factoid"
+  },
+  {
+    "id": "q12",
+    "question": "Which family does the Himalayan Monal belong to?",
+    "expected_answer": "Family: Phasianidae",
+    "expected_species": "Himalayan Monal",
+    "relevant_chunk_ids": [
+      332
+    ],
+    "should_abstain": false,
+    "category": "factoid"
+  },
+  {
+    "id": "q13",
+    "question": "Which family does the Eurasian Hoopoe belong to?",
+    "expected_answer": "Family: Upupidae",
+    "expected_species": "Eurasian Hoopoe",
+    "relevant_chunk_ids": [
+      230
+    ],
+    "should_abstain": false,
+    "category": "factoid"
+  },
+  {
+    "id": "q14",
+    "question": "Which family does the Common Myna belong to?",
+    "expected_answer": "Family: Sturnidae",
+    "expected_species": "Common Myna",
+    "relevant_chunk_ids": [
+      177
+    ],
+    "should_abstain": false,
+    "category": "factoid"
+  },
+  {
+    "id": "q15",
+    "question": "Which family does the Alpine Accentor belong to?",
+    "expected_answer": "Family: Prunellidae",
+    "expected_species": "Alpine Accentor",
+    "relevant_chunk_ids": [
+      1
+    ],
+    "should_abstain": false,
+    "category": "factoid"
+  },
+  {
+    "id": "q16",
+    "question": "Which family does the Kashmir Flycatcher belong to?",
+    "expected_answer": "Family: Muscicapidae",
+    "expected_species": "Kashmir Flycatcher",
+    "relevant_chunk_ids": [
+      383
+    ],
+    "should_abstain": false,
+    "category": "factoid"
+  },
+  {
+    "id": "q17",
+    "question": "What is the conservation status of the Asian Paradise Flycatcher?",
+    "expected_answer": "Conservation status: Least Concern",
+    "expected_species": "Asian Paradise Flycatcher",
+    "relevant_chunk_ids": [
+      17
+    ],
+    "should_abstain": false,
+    "category": "factoid"
+  },
+  {
+    "id": "q18",
+    "question": "What is the conservation status of the Black-hooded Oriole?",
+    "expected_answer": "Conservation status: Least Concern",
+    "expected_species": "Black-hooded Oriole",
+    "relevant_chunk_ids": [
+      52
+    ],
+    "should_abstain": false,
+    "category": "factoid"
+  },
+  {
+    "id": "q19",
+    "question": "What is the conservation status of the Black-naped Monarch?",
+    "expected_answer": "Conservation status: Least Concern",
+    "expected_species": "Black-naped Monarch",
+    "relevant_chunk_ids": [
+      55
+    ],
+    "should_abstain": false,
+    "category": "factoid"
+  },
+  {
+    "id": "q20",
+    "question": "What is the conservation status of the Blossom-headed Parakeet?",
+    "expected_answer": "Conservation status: Near Threatened",
+    "expected_species": "Blossom-headed Parakeet",
+    "relevant_chunk_ids": [
+      87
+    ],
+    "should_abstain": false,
+    "category": "factoid"
+  },
+  {
+    "id": "q21",
+    "question": "What is the migratory status of the Greylag Goose?",
+    "expected_answer": "Migratory status: Winter Migratory",
+    "expected_species": "Greylag Goose",
+    "relevant_chunk_ids": [
+      314
+    ],
+    "should_abstain": false,
+    "category": "factoid"
+  },
+  {
+    "id": "q22",
+    "question": "What is the migratory status of the Amur Falcon?",
+    "expected_answer": "Migratory status: Rare Visitor",
+    "expected_species": "Amur Falcon",
+    "relevant_chunk_ids": [
+      4
+    ],
+    "should_abstain": false,
+    "category": "factoid"
+  },
+  {
+    "id": "q23",
+    "question": "What is the migratory status of the Common Kingfisher?",
+    "expected_answer": "Migratory status: Resident",
+    "expected_species": "Common Kingfisher",
+    "relevant_chunk_ids": [
+      174
+    ],
+    "should_abstain": false,
+    "category": "factoid"
+  },
+  {
+    "id": "q24",
+    "question": "What do people in Kashmir call the Greylag Goose?",
+    "expected_answer": "Kashmiri name: Ans",
+    "expected_species": "Greylag Goose",
+    "relevant_chunk_ids": [
+      314
+    ],
+    "should_abstain": false,
+    "category": "paraphrase"
+  },
+  {
+    "id": "q25",
+    "question": "What do people in Kashmir call the Alpine Accentor?",
+    "expected_answer": "Kashmiri name: Zanda tsar",
+    "expected_species": "Alpine Accentor",
+    "relevant_chunk_ids": [
+      1
+    ],
+    "should_abstain": false,
+    "category": "paraphrase"
+  },
+  {
+    "id": "q26",
+    "question": "What do people in Kashmir call the Common Kingfisher?",
+    "expected_answer": "Kashmiri name: Kola tonch",
+    "expected_species": "Common Kingfisher",
+    "relevant_chunk_ids": [
+      174
+    ],
+    "should_abstain": false,
+    "category": "paraphrase"
+  },
+  {
+    "id": "q27",
+    "question": "How big is the Alexandrine Parakeet from beak to tail?",
+    "expected_answer": "Length: 56–62 cm",
+    "expected_species": "Alexandrine Parakeet",
+    "relevant_chunk_ids": [
+      0
+    ],
+    "should_abstain": false,
+    "category": "paraphrase"
+  },
+  {
+    "id": "q28",
+    "question": "Which bird family is the Himalayan Monal part of?",
+    "expected_answer": "Family: Phasianidae",
+    "expected_species": "Himalayan Monal",
+    "relevant_chunk_ids": [
+      332
+    ],
+    "should_abstain": false,
+    "category": "paraphrase"
+  },
+  {
+    "id": "q29",
+    "question": "What do locals call the owl that hunts at night in barns?",
+    "expected_answer": "Kashmiri name: Rata Mogul",
+    "expected_species": "Barn Owl",
+    "relevant_chunk_ids": [
+      26
+    ],
+    "should_abstain": false,
+    "category": "paraphrase"
+  },
+  {
+    "id": "q30",
+    "question": "Which bird of prey with a forked tail soars over Kashmir towns?",
+    "expected_answer": "Kashmiri name: Gont",
+    "expected_species": "Black Kite",
+    "relevant_chunk_ids": [
+      81
+    ],
+    "should_abstain": false,
+    "category": "paraphrase"
+  },
+  {
+    "id": "q31",
+    "question": "What is the Kashmiri name of the African Penguin?",
+    "expected_answer": "",
+    "expected_species": null,
+    "relevant_chunk_ids": [],
+    "should_abstain": true,
+    "category": "out_of_scope"
+  },
+  {
+    "id": "q32",
+    "question": "What is the length of the Emperor Penguin?",
+    "expected_answer": "",
+    "expected_species": null,
+    "relevant_chunk_ids": [],
+    "should_abstain": true,
+    "category": "out_of_scope"
+  },
+  {
+    "id": "q33",
+    "question": "Which family does the Ostrich belong to?",
+    "expected_answer": "",
+    "expected_species": null,
+    "relevant_chunk_ids": [],
+    "should_abstain": true,
+    "category": "out_of_scope"
+  },
+  {
+    "id": "q34",
+    "question": "What is the Kashmiri name of the Kiwi bird?",
+    "expected_answer": "",
+    "expected_species": null,
+    "relevant_chunk_ids": [],
+    "should_abstain": true,
+    "category": "out_of_scope"
+  },
+  {
+    "id": "q35",
+    "question": "What is the conservation status of the Toucan?",
+    "expected_answer": "",
+    "expected_species": null,
+    "relevant_chunk_ids": [],
+    "should_abstain": true,
+    "category": "out_of_scope"
+  },
+  {
+    "id": "q36",
+    "question": "What is the Kashmiri name of the Bald Eagle?",
+    "expected_answer": "",
+    "expected_species": null,
+    "relevant_chunk_ids": [],
+    "should_abstain": true,
+    "category": "out_of_scope"
+  }
+]
