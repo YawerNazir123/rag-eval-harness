@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rag-eval-harness"
+version = "0.1.0"
+description = "A small, reusable evaluation harness for RAG systems: retrieval and answer metrics over a golden QA dataset."
+readme = "README.md"
+requires-python = ">=3.12"
+license = { text = "MIT" }
+authors = [{ name = "Yawar Nazir" }]
+keywords = ["rag", "evaluation", "metrics", "nlp"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.12",
+    "License :: OSI Approved :: MIT License",
+]
+
+[project.scripts]
+rag-eval = "rag_eval.__main__:console_main"
+
+[tool.setuptools]
+packages = ["rag_eval"]
+package-dir = { "" = "src" }
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
