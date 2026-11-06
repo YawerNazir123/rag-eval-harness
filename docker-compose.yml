@@ -1,0 +1,22 @@
+services:
+  rag-eval:
+    build: .
+    volumes:
+      # Mount the document-qa-rag checkout so the doc-qa-rag adapter can
+      # import it and read its index. Adjust the host path to your machine.
+      - ../document-qa-rag:/document-qa-rag:ro
+      - ./results:/app/results
+    environment:
+      RAG_EVAL_DOC_QA_RAG_PATH: /document-qa-rag
+    # The image has no numpy/scikit-learn, so the default command runs
+    # the stub adapter. To run doc-qa-rag instead, install its
+    # dependencies in the image and change the command below to
+    # --system doc-qa-rag (the mount and env var are already set up).
+    command:
+      - run
+      - --dataset
+      - data/golden.json
+      - --system
+      - stub
+      - --out
+      - results
