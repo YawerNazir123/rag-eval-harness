@@ -39,11 +39,17 @@ Answers (compared with the expected answer string):
   species, plus citation coverage (how often a citation was given).
 - Abstention accuracy: whether the system abstained exactly when it
   should have, on questions about things outside the corpus.
+- For out-of-scope questions, the answer metrics are 1.0 when the
+  system correctly abstains and 0.0 when it answers; the aggregate
+  answer metrics exclude out-of-scope questions, so those 1.0s and
+  0.0s never enter the headline numbers.
 
 ## Architecture
 
 ```
 src/rag_eval/
+  __init__.py  Public API: re-exports the metrics, runner and systems
+               modules, plus __version__.
   metrics.py   Pure functions: recall@k, MRR, nDCG@k, hit rate,
                token F1, exact match, ROUGE-L, citation and
                abstention correctness. No I/O, fully unit-tested.
@@ -264,8 +270,9 @@ pip install -e .
 python -m pytest tests/ -q
 ```
 
-CI runs the same command on Python 3.12 for every push
-(`.github/workflows/ci.yml`).
+Continuous integration is not set up yet: the workflow file
+(`.github/workflows/ci.yml`, which runs the same command on Python
+3.12 for every push) has to be added through the GitHub web UI.
 
 ## License
 
