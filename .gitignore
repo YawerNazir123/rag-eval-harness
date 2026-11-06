@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+.env
+
+# Note: results/ is intentionally NOT ignored. The example evaluation
+# reports in results/ are committed so readers can see real numbers
+# without running anything.
+.pytest_cache/
