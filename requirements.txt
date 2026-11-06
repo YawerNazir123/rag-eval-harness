@@ -1,0 +1,7 @@
+# The harness itself uses only the Python standard library.
+# No third-party packages are needed to run it or its unit tests.
+#
+# The doc-qa-rag adapter is the exception: it imports document-qa-rag,
+# which needs numpy and scikit-learn. Install those separately, for
+# example by reusing document-qa-rag's own virtual environment, or:
+#   pip install numpy scikit-learn
